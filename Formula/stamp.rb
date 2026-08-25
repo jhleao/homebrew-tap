@@ -26,7 +26,7 @@ class Stamp < Formula
   end
 
   def install
-    bin.install Dir["stamp_*/stamp"].first
+    bin.install "stamp"
   end
 
   def caveats
