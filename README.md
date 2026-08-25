@@ -1,8 +1,8 @@
 # jhleao/homebrew-tap
 
-Homebrew formulas and casks maintained by [José Leão](https://github.com/jhleao).
+Homebrew formulas and casks.
 
-You can install a package directly without adding the tap first:
+Install a package directly without adding the tap first:
 
 ```sh
 brew install jhleao/tap/<package>
