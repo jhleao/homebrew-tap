@@ -5,23 +5,23 @@ class Stamp < Formula
   depends_on "tailwindcss"
   on_macos do
     on_arm do
-      url "https://github.com/jhleao/stamp/releases/download/v3.3.0/stamp_3.3.0_darwin_arm64.tar.gz"
-      sha256 "f16187839fef262b98366a9c8c120f86f4ace50a5681ce5edcdcfd352f71d7b2"
+      url "https://github.com/jhleao/stamp/releases/download/v3.4.0/stamp_3.4.0_darwin_arm64.tar.gz"
+      sha256 "9e404b5b5350a8787cf897fa2b8dfc9232f1f8d35e771be0d95d1145f9cbef79"
     end
     on_intel do
-      url "https://github.com/jhleao/stamp/releases/download/v3.3.0/stamp_3.3.0_darwin_amd64.tar.gz"
-      sha256 "ec37345bab24f91968517aa8cf7e0664fbfe7c1c1399dbd2b69c0bd8abde9207"
+      url "https://github.com/jhleao/stamp/releases/download/v3.4.0/stamp_3.4.0_darwin_amd64.tar.gz"
+      sha256 "8fe3ae14345b97f8b2ce2eef7cb703fbd9cd358f7e4f20cb4cb743cd0f6364b4"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/jhleao/stamp/releases/download/v3.3.0/stamp_3.3.0_linux_arm64.tar.gz"
-      sha256 "a70509cce3514ab7116bf8929e08475c88a4dfd4294c137abd832fda2d9989a8"
+      url "https://github.com/jhleao/stamp/releases/download/v3.4.0/stamp_3.4.0_linux_arm64.tar.gz"
+      sha256 "6af6ef5a8ac56aa53791feeaecdbf9285bed728151f60e3840c63c935c8ed460"
     end
     on_intel do
-      url "https://github.com/jhleao/stamp/releases/download/v3.3.0/stamp_3.3.0_linux_amd64.tar.gz"
-      sha256 "6fba18de73c90a98154378fd8843e1a11695a8c621ae8b53a0038eaec6e6751c"
+      url "https://github.com/jhleao/stamp/releases/download/v3.4.0/stamp_3.4.0_linux_amd64.tar.gz"
+      sha256 "af0e2b8ba1c46bc61fe0a62f3391f02d0e222c8de17319c91b51e4cc072e2464"
     end
   end
 
